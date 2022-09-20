@@ -30,7 +30,7 @@ while True:
 
     elif menu=='correction':
         name = input('수정할 이름 입력: ')
-        if name not in humann.keys(): # members.keys(): key만 추출하기
+        if name not in humann.keys(): # humann.keys(): key만 추출하기
             print('----------')
             print('존재하지않은 정보입니다')
             print('----------')
@@ -64,7 +64,7 @@ while True:
 
     elif menu=='list':
         print('----------')
-        for k, v in humann.items(): # members.items(): key, value 추출하기
+        for k, v in humann.items(): # humann.items(): key, value 추출하기
             print(f'{k}: {v}')
         # f = open("save.csv", "r")
         # reder = csv.reader(f)
